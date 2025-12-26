@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Pro</title>
+  <meta name="description" content="A modern, responsive landing page for your professional portfolio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Background decor -->
+  <div class="bg" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="grid"></span>
+  </div>
+
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#top" aria-label="Landing Pro home">
+        <span class="logo-dot"></span> Landing<span>Pro</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a class="btn btn-sm" href="#cta">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">Modern • Responsive • Clean</p>
+        <h1 class="headline">
+          Build a <span class="grad">professional landing page</span> that looks like a real product.
+        </h1>
+        <p class="subhead">
+          Landing Pro is a sleek, portfolio-ready template with smooth interactions, strong typography,
+          and a tech-style layout — perfect for showcasing your work.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#cta">Launch Your Landing</a>
+          <a class="btn btn-ghost" href="#features">See Features</a>
+        </div>
+
+        <div class="trust">
+          <div class="pill">Fast</div>
+          <div class="pill">Accessible</div>
+          <div class="pill">SEO-ready</div>
+          <div class="pill">GitHub Pages</div>
+        </div>
+      </div>
+
+      <div class="hero-card" role="img" aria-label="Product preview card">
+        <div class="card-top">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="card-title">Preview</span>
+        </div>
+        <div class="card-body">
+          <div class="stat">
+            <p class="stat-label">Conversion</p>
+            <p class="stat-value">+28%</p>
+          </div>
+          <div class="stat">
+            <p class="stat-label">Bounce rate</p>
+            <p class="stat-value">-14%</p>
+          </div>
+          <div class="divider"></div>
+          <p class="card-note">
+            Clean layout, strong spacing, and modern UI details. Built with HTML + CSS and minimal JS.
+          </p>
+          <a class="mini-link" href="#features">Explore layout →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section container">
+      <header class="section-head">
+        <h2>Features that feel premium</h2>
+        <p>Small details that make your landing page look like a real product.</p>
+      </header>
+
+      <div class="grid-3">
+        <article class="feature">
+          <h3>Modern UI</h3>
+          <p>Glass-like cards, soft shadows, and clean spacing for a tech aesthetic.</p>
+        </article>
+        <article class="feature">
+          <h3>Responsive</h3>
+          <p>Looks great on desktop, tablet, and mobile with a solid layout system.</p>
+        </article>
+        <article class="feature">
+          <h3>Smooth JS</h3>
+          <p>Minimal JavaScript for nav toggle and subtle animations (no heavy frameworks).</p>
+        </article>
+        <article class="feature">
+          <h3>Accessible</h3>
+          <p>Good contrast, focus states, semantic structure, and friendly navigation.</p>
+        </article>
+        <article class="feature">
+          <h3>SEO-ready</h3>
+          <p>Clean HTML structure with meta description and meaningful headings.</p>
+        </article>
+        <article class="feature">
+          <h3>Deploy Fast</h3>
+          <p>Publish with GitHub Pages in minutes and link it from your portfolio.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT / VALUE -->
+    <section id="about" class="section container">
+      <div class="split">
+        <div>
+          <h2>Designed for portfolio + real work</h2>
+          <p class="muted">
+            This project is built like a professional repo: clean structure, readable code, and
+            commit checkpoints. Perfect as a template and as proof of skill.
+          </p>
+
+          <ul class="checklist">
+            <li>Professional structure (assets/css + assets/js)</li>
+            <li>Reusable sections: hero, features, about, CTA, footer</li>
+            <li>Easy to customize text, colors, and layout</li>
+          </ul>
+
+          <a class="btn btn-ghost" href="#cta">Use this template</a>
+        </div>
+
+        <div class="about-card">
+          <p class="label">What you’ll learn</p>
+          <div class="about-grid">
+            <div class="chip">Layout</div>
+            <div class="chip">Typography</div>
+            <div class="chip">Components</div>
+            <div class="chip">Responsive</div>
+            <div class="chip">Git workflow</div>
+            <div class="chip">Deployment</div>
+          </div>
+          <p class="small muted">
+            Keep it simple, keep it clean, and ship it. That’s how portfolios win.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="section container">
+      <div class="cta">
+        <div>
+          <h2>Ready to publish?</h2>
+          <p class="muted">Commit, push, deploy with GitHub Pages, and link it from your portfolio.</p>
+        </div>
+        <a class="btn" href="#top">Back to top</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Landing Pro. Built with HTML, CSS, and a touch of JS.</p>
+      <a href="#top" class="footer-link">Top ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
